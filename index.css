@@ -11,3 +11,7 @@
     --turtlegreen: #6BCC69; 
     --seastar: #E6C6FF; 
 }
+
+body {
+    background: var(--palewhite);
+}
