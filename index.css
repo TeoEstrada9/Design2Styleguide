@@ -14,4 +14,55 @@
 
 body {
     background: var(--palewhite);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.header-container{
+    text-align: center;
+    margin-top: 50px;
+}
+.home-mainContent{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.center-title {
+    font-family: 'Pixeloid Sans', Nunito Sans, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.center-desc {
+    margin-top: 200px;
+    justify-content: space-evenly;
+    font-family: 'Pixeloid Sans', Nunito Sans, sans-serif;
+    
+}
+
+.btn{
+    width: 150px;
+    padding: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 3px solid black;
+    font-family: 'Pixeloid Sans', Nunito Sans, sans-serif;
+    font-size: 24px;
+}
+
+.startbtn{
+    background-color: var(--coralreef);
+}
+
+.startbtn:hover{
+    background-color:var(--strawyellow);
+    box-shadow: 5px 5px #000;
+}
+
+
