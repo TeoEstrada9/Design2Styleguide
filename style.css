@@ -20,10 +20,13 @@ body {
     justify-content: center;
 }
 
+/* Landing page styling */
+
 .header-container{
     text-align: center;
     margin-top: 50px;
 }
+
 .home-mainContent{
     display: flex;
     gap: 50px;
@@ -66,3 +69,28 @@ body {
 }
 
 
+/* home page styling */
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-box{
+    margin-top: -15px;
+}
+
+.choose-topic{
+    font-family:'Pixeloid Sans', Nunito Sans, sans-serif;
+    font-weight: bold;
+}
+
+
+.menu-topic{    
+    text-decoration: none;
+    font-family: 'Pixeloid Sans';
+    color: #000;
+    font-size: 18px;
+
+}
