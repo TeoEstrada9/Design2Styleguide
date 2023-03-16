@@ -9,8 +9,9 @@
   </head>
   <body>
   <!-- Title page -->
-    <img class="visual-Title" src="../images/VisualsTitle.png" alt="VisualsTitle"/>
-
+    <div class="titleImage">
+        <img class="visual-Title" src="../images/VisualsTitle.png" alt="VisualsTitle"/>
+    </div>
     <h1 class="IconsTitle">Icons</h1>
 
     <!-- Icons Section -->
@@ -83,7 +84,7 @@
         <section class="buyButton">
             <img src="../images/buy.png" alt="">
             <h4 class="buyTitle">Buy Button</h4>
-            <p>
+            <p class="buttonText">
                 Button to purchase <br>
                 items in the shop
             </p>
@@ -129,22 +130,25 @@
                     pause the game
                 </p>
             </section>
-            <section class="saveButton">
-                <h4 class="saveTitle">Save Button</h4>
-                <img class="saveButtonImage" src="../images/save.png" alt="">
-                <p>
-                    A save progress button that would then give <br>
-                    feedback popup that would ask the user <br>
-                    if they want to save
-                </p>
-            </section>
+
+            <div class="savesection">
+                <section class="saveButton">
+                    <h4 class="saveTitle">Save Button</h4>
+                    <img class="saveButtonImage" src="../images/save.png" alt="">
+                    <p>
+                        A save progress button that would then give <br>
+                        feedback popup that would ask the user <br>
+                        if they want to save
+                    </p>
+                </section>
+            </div>
             <section class="mainButtons">
                 <h4>Main Page Buttons</h4>
                 <div class="mainItems">
                 <img class="playButton" src="../images/playButton.png" alt="">
                 <img class="aboutButton" src="../images/About.png" alt="">
                 </div>
-                <p>
+                <p class="playButtonText">
                     Play Button: where users <br>
                      can begin playing <br>
                     <br>
@@ -158,11 +162,20 @@
 
    
 
-    <a class="back2Menu" href="/index.html">Back to topics</a>
-    <a href="/page/graphics.html">
-        <img src="../images/arrow_left.png" alt="">
-    </a>
-    </div>
+        <div class="buttonNav">
+            <a class="button-Link" href="../index.html">
+                <button  class="navButton">
+                    Back to topic
+                </button>
+            </a>
+            <a class="ArrowsNav" href="../pages/colorPalette.html">
+                <img class="arrowleft" src="../images/arrow_left.png" alt="">
+            </a>
+            <a class="ArrowsNav" href="../pages/graphics.html">
+                <img class="arrowright" src="../images/arrow_right.png"/>
+            </a>
+           
+        </div>
     
   </body>
 </html>
