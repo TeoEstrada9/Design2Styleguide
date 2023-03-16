@@ -100,6 +100,12 @@ body {
     font-weight: bold;
 }
 
+.menu-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .menu-topic{    
     text-decoration: none;
     font-family: 'Pixeloid Sans';
@@ -108,7 +114,18 @@ body {
     padding-left: 15px;
     display: flex;
     height: 70px;
+    width: 200px;
 }
+.menu-back{
+    text-decoration: none;
+    font-family: 'Pixeloid Sans';
+    color: #000;
+    font-size: 18px;
+    margin-left: 15px;
+    
+}
+
+
 
 .triangle{
     display: none;
@@ -122,4 +139,21 @@ body {
 	border-left: 15px solid #000;
 	border-bottom: 10px solid transparent;
 
+}
+.backbtn{
+    margin-left: 20px;
+}
+.backbtn:hover{
+    box-shadow: 5px 5px #000;
+}
+
+.back-page{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: 25px 15px;
+}
+
+.back-page:hover{
+    border-bottom: 2px solid #000;
 }
