@@ -10,4 +10,157 @@
     --seaweedgreen: #C1EB8B; 
     --turtlegreen: #6BCC69; 
     --seastar: #E6C6FF; 
+
+    /* background-color:var(--strawyellow);
+    box-shadow: 5px 5px #000; */
+
+    /* width: 150px;
+    padding: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 3px solid black;
+    font-family: 'Pixeloid Sans', Nunito Sans, sans-serif;
+    font-size: 24px; */
+}
+@font-face {
+    font-family: "pixeloidSans";
+    src: url("../font/PixeloidSans-JR6qo.ttf");
+
+    font-family: "pixeloidSans_bold";
+    src: url("../font/PixeloidSansBold-GOjpP.ttf");
+}
+body, html {
+    background: var(--palewhite);
+    margin: 0;
+    padding: 0;
+}
+.visual-Title {
+ position: relative;
+ left: 27em;
+}
+.IconsTitle {
+    text-align: center;
+    font-family:'pixeloidSans';
+}
+
+.homeTitle {
+    font-family: 'pixeloidSans';
+    margin-left: 29px;
+}
+/* Positioning Items */
+.home-icon {
+    margin-left: 8em;
+    margin-top: 3em;
+}
+.ButtonsTitle {
+    text-align: center;
+    font-family: 'piexeloidSans';
+}
+
+.beach-icon {
+    position: relative;
+    left: 41.5em;
+    bottom: 16em;
+    
+}
+.notepad-icon {
+    position: relative;
+    left: 78em;
+    bottom: 34em;
+}
+
+.settingsIcons {
+    position: relative;
+    bottom: 25em;
+    margin-left: 7em;
+}
+.settingsIcons > img {
+    width: 9%;
+}
+
+.storeIcon {
+    position: relative;
+    left: 78em;
+    bottom: 42em;
+}
+.storeIcon > img {
+    width: 7%;
+}
+
+/* Styling Text Etc */
+.beachTitle {
+    margin-left: 20px;
+}
+.notepadTitle {
+    margin-left: 25px;
+}
+.profileTitle {
+    margin-left: 28px;
+}
+.storeTitle {
+    margin-left: 40px;
+}
+
+
+/* Buttons Section */
+
+.ButtonsTitle {
+    position: relative;
+    bottom: 15em;
+}
+
+.buyButton {
+    position: relative;
+    bottom: 25em;
+    left: 7em;
+}
+.arrows {
+    position: relative;
+    left: 39em;
+    bottom: 41em;
+}
+.menuNav {
+    position: relative;
+    bottom: 55em;
+    left: 68em;
+}
+.hamburgerMenu {
+    position: relative;
+    bottom: 40em;
+    left: 6.9em;
+}
+.saveButton {
+    position: relative;
+    bottom: 54em;
+    left: 38em;
+}
+.mainButtons {
+    position: relative;
+    bottom: 71em;
+    left: 68em;
+}
+.playButton, .aboutButton {
+    display: flex;
+    flex-direction: column;
+}
+.buyButton, .arrows, .menuNav {
+    margin-top: 5em;
+}
+
+.back2Menu  {
+    position: relative;
+    bottom: 60em;
+}
+.rightArrow {
+
+}
+
+@media screen and (max-width: 768px) {
+    .visual-Title {
+        left: 0;
+        text-align: center;
+    }
+    .home-icon {
+        margin-left: 0;
+    }
 }
