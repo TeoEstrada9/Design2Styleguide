@@ -42,7 +42,10 @@ body {
     margin-top: 50px;
     cursor: pointer;
 }
-
+.button-container{
+    display: flex;
+    flex-direction: column;
+}
 .center-desc {
     margin-top: 20%;
     justify-content: space-evenly;
@@ -104,7 +107,7 @@ body {
     font-size: 18px;
     padding-left: 15px;
     display: flex;
-    height: max-content;
+    height: 70px;
 }
 
 .triangle{
