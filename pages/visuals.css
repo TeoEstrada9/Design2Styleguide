@@ -46,8 +46,8 @@ body, html {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 12em;
-    gap: 21px;
+    margin-bottom: 6em;
+    gap: 5px;
 }
 .icons-containerBottom {
     display: flex;
@@ -59,26 +59,46 @@ body, html {
 .buttonscontainerTop {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 4em;
+    gap: 5px;
    
 }
 .buttonscontainerBottom {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10em;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.homeImage {
+    margin-left: 2.1em;
+}
+.beachImage {
+   margin-left: 2.5em;
+}
+.notepadImage {
+    margin-left: 2em;
+}
+.settingsImage {
+    margin-left: 2.5em;
+    gap: 0px;
+}
+.storeImage {
+    margin-left: 2.7em;
 }
 
 .IconsTitle {
     text-align: center;
     margin-bottom: 2em;
     margin-top: 3em;
-    font-family: 'PixeloidSans';
+    font-family: 'PixeloidSans_bold';
 }
 .ButtonsTitle {
     text-align: center;
     margin-bottom: 3em;
     margin-top: 5em;
-    font-family: 'PixeloidSans';
+    font-family: 'PixeloidSans_bold';
 }
 
 
@@ -87,31 +107,56 @@ body, html {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
 .playButton, .aboutButton {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.homeTitle, .beachTitle, .notepadTitle, .profileTitle, .storeTitle, .hamburgerTitle, .saveTitle {
-    font-family:'PixeloidSans'; 
+.homeTitle, .beachTitle, .notepadTitle, .profileTitle, .storeTitle, .hamburgerTitle, .saveTitle , .mainPageTitle {
+    font-family:'PixeloidSans_bold'; 
     text-align: center;
 }
+.hamburgerTitle {
+    margin-right: 3em;
+}
+.saveTitle {
+    text-align: center;
+    margin-right: 70px;
+}
+.mainPageTitle {
+    display: flex;
+    justify-content: center;
+}
+.mainItems {
+    display: flex;
+}
+.playButtonText {
+    text-align: center;
+}
+
 .homeDescrption, .beachIconText, .notepadIconText, .profileIconText, .storeIconText {
-    font-family: 'Pixeloid Sans';
+    font-family: 'PixeloidSans';
 }
 
 .buyTitle, .navButtonsTitle {
     text-align: center;
+    font-family: 'PixeloidSans_bold';
+    margin-left: 1em;
 }
 
 
 .saveButtonImage {
-   margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
    
 }
+
 .hamburgerImage {
-    margin-left: 65px;
+    margin-left: 78px;
 }
 
 .navArrows {
@@ -119,10 +164,16 @@ body, html {
     justify-content: space-evenly;
     margin-left: 4em;
 }
+.arrowImages {
+    display: flex;
+    justify-content: center;
+}
 .navArrowsText {
-    text-align: center;
-    margin-left: 3.5em;
+   text-align: center;
+   margin-left: 8em;
     font-family:'PixeloidSans'; 
+    display: flex;
+    justify-content: center;
 }
 
 .playButton, .aboutButton {
@@ -153,7 +204,7 @@ body, html {
     justify-content: center;
     text-decoration: none;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 19px;
     
 }
 .navButton:hover {
@@ -163,13 +214,14 @@ body, html {
 }
 
 .saveButton {
-    margin-top: 0px;
+    margin-top: 0px
     
 
 }
 .savesection {
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
       
 }
 .store {
@@ -186,6 +238,60 @@ body, html {
     position: relative;
     left: 5em;
 }
+
+.sectionTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+
+}
+
+.buyButtonImage {
+    margin-left: 1.6em;
+}
+.navArrows {
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+    margin-left: 148px;
+}
+
+.menuNavigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navButtonsTitle {
+    display: flex;
+    justify-content: center;
+    margin-right: 6.6em;
+}
+.continueTitle {
+    color: #2EA1DA;
+    font-family: 'PixeloidSans_bold';
+}
+.quitGameTitle {
+    color: #6BCC69;
+    font-family: 'PixeloidSans_bold';
+}
+ .settingsTitle {
+   font-family: 'PixeloidSans_bold';
+   color: #EB8B8B;
+ }
+ .playTitle {
+    color: #453333;
+    font-family: 'PixeloidSans_bold';
+ }
+ .aboutTitle {
+    color: #453333;
+    font-family: 'PixeloidSans_bold';
+ }
+ .pauseMenuImage {
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5em;
+ }
+
 
 
 
