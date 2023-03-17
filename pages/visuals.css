@@ -61,8 +61,7 @@ body, html {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 4em;
-    gap: 5px;
-   
+    gap: 5px;   
 }
 .buttonscontainerBottom {
     display: flex;
@@ -84,6 +83,11 @@ body, html {
     margin-left: 2.5em;
     gap: 0px;
 }
+.settingsImage1 {
+    width: 120px;
+    height: 100px;
+    margin-left: 3em;
+}
 .storeImage {
     margin-left: 2.7em;
 }
@@ -97,7 +101,7 @@ body, html {
 .ButtonsTitle {
     text-align: center;
     margin-bottom: 3em;
-    margin-top: 5em;
+    margin-top: 22em;
     font-family: 'PixeloidSans_bold';
 }
 
@@ -294,6 +298,51 @@ body, html {
  }
  .menuNavText {
     line-height: 1.40;
+ }
+ .rational {
+   position: absolute;
+   top: 70em;
+   
+ }
+ .rationalTitle {
+    font-family: 'PixeloidSans_bold'; 
+    text-align: center;
+    color: #453333;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+ }
+
+ .pixeldesign {
+    font-size: 19px;
+ }
+ .sizingHome {
+    margin-top: 70px;
+ }
+ .smallButtons {
+    margin-top: 2em;
+    
+    font-size: 19px;
+ }
+ .pixelDesign {
+    color: #2EA1DA;
+    font-family: 'PixeloidSans_bold'; 
+
+ }
+ .pixelSize {
+    color: #F8C468;
+    font-family: 'PixeloidSans_bold'; 
+    
+ }
+ .smallpixel {
+    color: #EB8B8B;
+    font-family: 'PixeloidSans_bold'; 
+ }
+ .arcadeText {
+    color: #6BCC69;
+    font-family: 'PixeloidSans_bold'; 
+    text-decoration: underline;
  }
 
 
