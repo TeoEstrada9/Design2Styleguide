@@ -35,7 +35,7 @@ body, html {
     background: var(--palewhite);
     margin: 0;
     padding: 0;
-    font-family: "pixeloidSans";
+    font-family: 'pixeloidSans';
 }
 .titleImage {
     display: flex;
@@ -60,13 +60,14 @@ body, html {
     display: flex;
     justify-content: space-around;
     margin-bottom: 4em;
+   
 }
 .buttonscontainerBottom {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     margin-bottom: 10em;
 }
+
 .IconsTitle {
     text-align: center;
     margin-bottom: 2em;
@@ -80,14 +81,24 @@ body, html {
     font-family: 'PixeloidSans';
 }
 
-.mainItems {
+
+.mainUserButtons {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.playButton, .aboutButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .homeTitle, .beachTitle, .notepadTitle, .profileTitle, .storeTitle, .hamburgerTitle, .saveTitle {
     font-family:'PixeloidSans'; 
     text-align: center;
+}
+.homeDescrption, .beachIconText, .notepadIconText, .profileIconText, .storeIconText {
+    font-family: 'Pixeloid Sans';
 }
 
 .buyTitle, .navButtonsTitle {
@@ -138,6 +149,11 @@ body, html {
     font-family: 'pixeloidSans_bold';
     color: black;
     padding: 10%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 25px;
     
 }
 .navButton:hover {
@@ -145,13 +161,6 @@ body, html {
     background-color:var(--strawyellow);
     box-shadow: 5px 5px black;
 }
-.arrowright {
-    margin-left: 5px;
-}
-.arrowleft {
-   margin-right: 20em;
-}
-
 
 .saveButton {
     margin-top: 0px;
@@ -168,6 +177,18 @@ body, html {
     justify-content: center;
     margin-left: 18px;
 }
+
+.arrowleft {
+    position: relative;
+    right: 15em;
+}
+.arrowright {
+    position: relative;
+    left: 5em;
+}
+
+
+
 
 
 
