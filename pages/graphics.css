@@ -43,16 +43,18 @@ body{
     background-color: var(--palewhite);
     margin-top: 45px;
 }
-a:hover{
-    background-color: var(--darkbrown);
-    color: var(--palewhite);
-}
 
-a{
+a.categories{
     text-decoration: none;
     color: #000;
     padding: 15px;
 }
+
+.categories:hover{
+    background-color: var(--darkbrown);
+    color: var(--palewhite);
+}
+
 
 .character{
     height: 500px;
@@ -178,7 +180,7 @@ h2
 .nav-btn{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
     margin: 3% 0;
 }
