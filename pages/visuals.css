@@ -31,6 +31,11 @@
     font-family: "pixeloidSans_bold";
     src: url("../font/PixeloidSansBold-GOjpP.ttf");
 }
+
+p{
+    font-family: 'Pixeloid Sans';
+}
+
 body, html {
     background: var(--palewhite);
     margin: 0;

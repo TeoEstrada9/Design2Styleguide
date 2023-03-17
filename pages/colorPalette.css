@@ -13,13 +13,17 @@
     --purpleyam: #d097ff;
 }
 
+@font-face {
+    font-family: 'Pixeloid Sans';
+    src: url(/font/PixeloidSans-JR6qo.ttf);
+}
 body{
     background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Pixeloid Sans', Sans serif;
     margin: auto;
+    font-family: 'Pixeloid Sans';
 }
 
 .oceangif{
@@ -50,9 +54,7 @@ body{
     justify-content: center;
     margin-bottom: 40px;
 }
-h1{
-    margin-top: 50px;
-}
+
 
 h3{
     width: 135px;
@@ -162,9 +164,48 @@ h3{
     flex-direction: row;
     align-items: flex-start;
     gap: 15px;
-    margin-bottom: 10%;
+    margin: 3% 0;
 }
 
 .arrow{
     margin-top: 15px;
 }
+
+/* Responsiveness */
+
+
+
+@media screen and (max-width:2560px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+@media screen and (max-width: 1440px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .intro-desc, .descContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .color-palette, .oceangif{
+        margin-top: 30px;
+        rotate: 0deg;
+    }
+    h1, .desc{
+        width: 500px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
