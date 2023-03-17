@@ -69,7 +69,7 @@ body, html {
     justify-content: space-around;
     margin-bottom: 10em;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 2px;
 }
 .homeImage {
     margin-left: 2.1em;
@@ -191,6 +191,7 @@ body, html {
     justify-content: center;
     align-items: center;
     margin-bottom: 10%;
+    text-decoration: none;
 }
 .navButton {
     background-color: var(--coralreef);
@@ -290,6 +291,9 @@ body, html {
     display: flex;
     justify-content: center;
     margin-left: 1.5em;
+ }
+ .menuNavText {
+    line-height: 1.40;
  }
 
 
